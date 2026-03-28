@@ -1,6 +1,11 @@
 #2/bin/bash
-echo "System Info"
-echo "User: $(whoami)"
-echo "kernel: $(uname -r)"
-echo "Date: $(date)"
-echo "Uptime: $(uptime -p)"
+
+PACKAGE = "python3"
+
+if dpkg -l| grep -q $PACKAGE
+then
+    echo "$package is installed"
+    python3 --version
+else
+    echo "$PACKAGE isNOT installed"
+fi
