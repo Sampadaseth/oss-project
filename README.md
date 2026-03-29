@@ -1,81 +1,83 @@
-# OSS Capstone Project
+OSS Capstone Project
 
-## 👤 Student Details
-- Name: Sampada Seth
-- Course: B.Tech CSE (AI & ML)
-- Semester: 5th Semester
+👤 Student Details
 
----
+Name: Sampada Seth
 
-## 🧠 Selected Open Source Software
-**Python**
+Registration No: 24BAI10058
 
-Python is an open-source, high-level programming language widely used for web development, data science, automation, and AI.
+Course: B.Tech CSE (AI & ML)
 
----
+Semester: Semester
 
-## 📂 Project Structure
+🧠 Selected Open Source Software
 
-This repository contains 5 shell scripts:
+Python
 
-1. script1.sh → System Information Script  
-2. script2.sh → Package Checker  
-3. script3.sh → Disk Auditor  
-4. script4.sh → Log Analyzer  
-5. script5.sh → Manifest Generator  
+I am using Python for this project. Python is a language that people use for lots of things like making websites working with data automating tasks and making artificial intelligence.
 
----
+📂 Project Structure
 
-## ⚙️ Scripts Description
+This repository has five scripts:
 
-### 🖥️ Script 1: System Information
-Displays:
-- Username  
-- Kernel version  
-- System uptime  
-- Current date  
+script1.sh → System Information Script
 
----
+script2.sh → Package Checker
 
-### 📦 Script 2: Package Checker
-- Checks if Python is installed  
-- Displays version if installed  
+script3.sh → Disk Auditor
 
----
+script4.sh → Log Analyzer
 
-### 💾 Script 3: Disk Auditor
-- Checks directories like `/etc`, `/home`, `/usr/bin`  
-- Displays size and permissions  
+script5.sh → Manifest Generator
 
----
+⚙️ Scripts Description
 
-### 📄 Script 4: Log Analyzer
-- Reads a log file  
-- Counts number of error lines  
+🖥️ Script 1: System Information
 
----
+This script shows me some information about my system. It displays my username, the version of the kernel how long the system has been running and the current date.
 
-### ✍️ Script 5: Manifest Generator
-- Takes user input  
-- Generates a paragraph  
-- Saves it to a file  
+📦 Script 2: Package Checker
 
----
+This script checks if Python is installed on my system. If it is the script shows me the version of Python that I have.
 
-## ▶️ How to Run Scripts
+💾 Script 3: Disk Auditor
 
-### Step 1: Give permission
-```bash
+This script looks at some directories on my system like, /etc /home and /usr/bin. It shows me how big these directories are and what permissions they have.
+
+📄 Script 4: Log Analyzer
+
+This script reads a log file. Counts how many lines have errors in them.
+
+✍️ Script 5: Manifest Generator
+
+This script asks me for some input generates a paragraph based on what I say and saves it to a file.
+
+▶️ How to Run Scripts
+
+Step 1: Give permission to the scripts
+
+I need to run the following commands to give permission to the scripts:
+
 chmod +x script1.sh
-chmod +x script2.sh
+
+chmod x script2.sh
+
 chmod +x script3.sh
+
 chmod +x script4.sh
+
 chmod +x script5.sh
 
-Step 2: Run Scripts
+Step 2: Run the scripts
+
+Now I can run the scripts using the following commands:
 
 ./script1.sh
+
 ./script2.sh
+
 ./script3.sh
+
 ./script4.sh logfile.txt
+
 ./script5.sh
