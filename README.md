@@ -8,7 +8,7 @@ Registration No: 24BAI10058
 
 Course: B.Tech CSE (AI & ML)
 
-Semester: Semester
+Semester: Winter Semester
 
 🧠 Selected Open Source Software
 
